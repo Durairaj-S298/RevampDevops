@@ -1,4 +1,4 @@
-name: Node Inputs Pipeline
+name: Node env access Pipeline
 
 on:
   push:

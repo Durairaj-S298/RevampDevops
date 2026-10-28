@@ -1,1 +1,4 @@
-node_modules
+.scannerwork/
+logs/
+.env.development
+node_modules/

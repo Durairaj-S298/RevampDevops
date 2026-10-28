@@ -36,7 +36,7 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Login Build and Push to DockerHub
-        uses: karthipv-07/RevampBatch08/.github/actions/docker-build-push@main
+        uses: Durairaj-S298/RevampDevops/.github/actions/docker-build-push@main
         with:
           username: ${{ vars.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
